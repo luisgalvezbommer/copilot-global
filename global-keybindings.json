@@ -1,0 +1,43 @@
+[
+  {
+    "key": "ctrl+shift+i",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "github.copilot.toggleInlineSuggestion",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+\\",
+    "command": "github.copilot.acceptInlineSuggestion",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "alt+]",
+    "command": "github.copilot.nextInlineSuggestion",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "alt+[",
+    "command": "github.copilot.previousInlineSuggestion",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "github.copilot.interactiveEditor.explain"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "github.copilot.interactiveEditor.fix"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "github.copilot.interactiveEditor.optimize"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "github.copilot.interactiveEditor.tests"
+  }
+]
